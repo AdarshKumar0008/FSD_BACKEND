@@ -18,7 +18,7 @@ const UpdateBook = () => {
 
   const fetchBooks = async () => {
     try {
-      const res = await axios.get('https://fsd-backend-3-43gp.onrender.com/books');
+      const res = await axios.get('https://fsd-backend-0uxm.onrender.com/books');
       setBooks(res.data);
     } catch (error) {
       console.error(error);
